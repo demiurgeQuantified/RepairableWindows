@@ -1,0 +1,13 @@
+module RepairableWindows {
+    item LargeGlassPane {
+        Type = Normal,
+        Weight = 0.8,
+        DisplayName = Glass Pane,
+        DisplayCategory = Material,
+        Icon = GlassPane,
+        Tooltip = Tooltip_RepairableWindows_GlassPane,
+        WorldStaticModel = GlassPanel,
+        StaticModel = GlassPanel,
+        Tags = Glass,
+    }
+}

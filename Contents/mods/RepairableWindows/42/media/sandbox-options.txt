@@ -1,0 +1,10 @@
+VERSION = 1,
+
+option RepairableWindows.BreakChance {
+    type = enum,
+    numValues = 3,
+    default = 1,
+    page = RepairableWindows,
+    translation = RepairableWindows_BreakChance,
+    valueTranslation = RepairableWindows_BreakChance,
+}
