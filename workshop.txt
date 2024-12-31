@@ -1,13 +1,15 @@
 version=1
 id=3378304610
-title=Repairable Windows
+title=[B42] Repairable Windows
 description=Allows removing glass panes from large windows and installing them into other windows. Taking glass requires a crowbar and Carpentry level 2. It has a chance to break the glass, decreasing with Carpentry level. No skill is required to place the glass in an empty frame.
 description=
 description=Does [b]not[/b] allow replacing glass in the smaller framed windows, as you can already do this using the furniture tools.
+description=
+description=(Build 42 Only) Large glass panes can also be crafted through the same process as vanilla glass panes.
 description=
 description=[h2]Sandbox Options[/h2]
 description=The formula that calculates the chance to break can be modified or disabled entirely with sandbox options.
 description=
 description=[url=https://github.com/demiurgeQuantified/RepairableWindows]View on GitHub[/url]
-tags=Build 41;Building;Misc;Multiplayer;Realistic
-visibility=unlisted
+tags=Build 41;Build 42;Building;Misc;Multiplayer;Realistic
+visibility=public
