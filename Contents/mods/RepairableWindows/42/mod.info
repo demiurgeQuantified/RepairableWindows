@@ -5,6 +5,7 @@ poster=main.png
 poster=takeglass.png
 poster=installglass.png
 poster=vanilla.png
+icon=icon.png
 description=Allows removing and replacing glass from windows.
 url=https://github.com/demiurgeQuantified/RepairableWindows
 versionMin=42.0.2
