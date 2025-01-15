@@ -12,6 +12,7 @@ description=The formula that calculates the chance to break can be modified or d
 description=
 description=[h1]Translation credits[/h1]
 description=Turkish translation by [url=https://steamcommunity.com/profiles/76561198268087708]VVentos[/url]
+description=Italian translation by [url=https://steamcommunity.com/id/Art_Tippet]Art Tippet[/url]
 description=
 description=[url=https://github.com/demiurgeQuantified/RepairableWindows]View on GitHub[/url]
 tags=Build 41;Build 42;Building;Misc;Multiplayer;Realistic
