@@ -36,6 +36,7 @@ module RepairableWindows {
         time = 120,
         Tags = AnySurfaceCraft;Glassmaking,
         category = Glassmaking,
+        needToBeLearn = true,
         xpAward = Glassmaking:25,
 
         inputs {
