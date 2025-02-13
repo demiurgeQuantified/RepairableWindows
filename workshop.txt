@@ -13,6 +13,7 @@ description=
 description=[h1]Translation credits[/h1]
 description=Turkish translation by [url=https://steamcommunity.com/profiles/76561198268087708]VVentos[/url]
 description=Italian translation by [url=https://steamcommunity.com/id/Art_Tippet]Art Tippet[/url]
+description=Russian translation by [url=https://steamcommunity.com/profiles/76561199070527711]WowUrCutie[/url]
 description=
 description=[url=https://github.com/demiurgeQuantified/RepairableWindows]View on GitHub[/url]
 tags=Build 41;Build 42;Building;Misc;Multiplayer;Realistic
