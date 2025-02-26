@@ -37,6 +37,7 @@ module RepairableWindows {
         Tags = AnySurfaceCraft;Glassmaking,
         category = Glassmaking,
         needToBeLearn = true,
+        metaRecipe = MakeGlassPanel,
         xpAward = Glassmaking:25,
 
         inputs {
