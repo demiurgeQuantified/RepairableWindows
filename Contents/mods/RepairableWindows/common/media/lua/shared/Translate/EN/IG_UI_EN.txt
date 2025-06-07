@@ -1,4 +1,9 @@
 IGUI_EN = {
     IGUI_RepairableWindows_AddWindow = "Install Glass",
     IGUI_RepairableWindows_RemoveWindow = "Take Glass",
+
+    IGUI_RepairableWindows_Predicate_IsWindow = "Is a window",
+    IGUI_RepairableWindows_Predicate_HasGlass = "Has glass",
+    IGUI_RepairableWindows_Predicate_IsSmashed = "Is broken",
+    IGUI_RepairableWindows_Predicate_NotBarricaded = "Is not barricaded",
 }
