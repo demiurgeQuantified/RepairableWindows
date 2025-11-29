@@ -1,0 +1,5 @@
+Recipes_RU = {
+    Recipe_MakeLargeSheetMold = "Вылепить большую форму для листа из глины",
+    FireClayLargeSheetMold = "Обжечь большую форму для листа из глины",
+    MakeLargeGlassPane = "Изготовить большую стеклянную панель",
+}

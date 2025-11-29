@@ -13,7 +13,7 @@ description=
 description=[h1]Translation credits[/h1]
 description=Turkish translation by [url=https://steamcommunity.com/profiles/76561198268087708]VVentos[/url]
 description=Italian translation by [url=https://steamcommunity.com/id/Art_Tippet]Art Tippet[/url]
-description=Russian translation by [url=https://steamcommunity.com/profiles/76561199070527711]WowUrCutie[/url]
+description=Russian translation by [url=https://steamcommunity.com/profiles/76561199070527711]WowUrCutie[/url] and [url=https://steamcommunity.com/profiles/76561198100076306]Niko_216[/url]
 description=Spanish translation by [url=https://steamcommunity.com/id/taylor_mh]Taylor MH[/url]
 description=
 description=[url=https://github.com/demiurgeQuantified/RepairableWindows]View on GitHub[/url]
