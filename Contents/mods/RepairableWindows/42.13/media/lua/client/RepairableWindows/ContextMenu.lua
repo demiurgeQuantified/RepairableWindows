@@ -94,6 +94,14 @@ local function fillContextMenu(playerIndex, context, worldObjects, test)
     local player = getSpecificPlayer(playerIndex)
     local inventory = player:getInventory()
 
+    local windowOption = context:getOptionFromName(getText("Window"))
+    if windowOption then
+        local windowMenu = context:getSubInstance(windowOption.subOption)
+        if windowMenu ~= nil then
+            context = windowMenu
+        end
+    end
+
     local option
     if window:isSmashed() then
         if window:isGlassRemoved() and inventory:containsTypeRecurse("RepairableWindows.LargeGlassPane") then
