@@ -1,3 +1,5 @@
 ItemName_RU = {
-    ItemName_RepairableWindows.GlassPane = "Большой стеклопакет",
+    ItemName_RepairableWindows.LargeGlassPane = "Большая стеклянная панель",
+    ItemName_RepairableWindows.ClayLargeSheetMoldUnfired = "Большую форма для листа из глины (необожжённая)",
+    ItemName_RepairableWindows.ClayLargeSheetMold = "Большая керамическая форма для листа из глины",
 }
