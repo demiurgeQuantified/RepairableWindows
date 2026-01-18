@@ -83,6 +83,8 @@ function RemoveWindowAction:complete()
     end
 
     self.window:sync()
+
+    return true
 end
 
 
