@@ -43,9 +43,16 @@ function RemoveWindowAction.getWindowBreakChance(character)
 end
 
 
-function RemoveWindowAction:isValidStart()
+function RemoveWindowAction:waitToStart()
+    self.character:faceThisObject(self.window)
+    return self.character:shouldBeTurning()
+end
+
+
+---@return boolean
+function RemoveWindowAction:isValid()
     local primaryHandItem = self.character:getPrimaryHandItem()
-    if not primaryHandItem:hasTag(ItemTag.CROWBAR) or primaryHandItem:isBroken() then
+    if not primaryHandItem or not primaryHandItem:hasTag(ItemTag.CROWBAR) or primaryHandItem:isBroken() then
         return false
     end
 
@@ -53,19 +60,6 @@ function RemoveWindowAction:isValidStart()
         return false
     end
 
-    return true
-end
-
-
-function RemoveWindowAction:waitToStart()
-    self.character:faceThisObject(self.window)
-    return self.character:shouldBeTurning()
-end
-
-
-function RemoveWindowAction:isValid()
-    -- ensure the object hasn't been removed and that the window hasn't been smashed
-    -- TODO: check way more stuff here for security
     return self.window:getSquare() and not self.window:isSmashed()
 end
 
