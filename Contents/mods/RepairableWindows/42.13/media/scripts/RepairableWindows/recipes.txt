@@ -1,4 +1,4 @@
-module RepairableWindows {
+module Base {
     craftRecipe MakeLargeSheetMold {
         timedAction = Craft_PotteryBench,
         time = 100,
