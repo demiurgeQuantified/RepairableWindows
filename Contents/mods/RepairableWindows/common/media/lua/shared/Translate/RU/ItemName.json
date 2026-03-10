@@ -1,5 +1,5 @@
 {
-    "ItemName_RepairableWindows.LargeGlassPane":  "Большая стеклянная панель",
-    "ItemName_RepairableWindows.ClayLargeSheetMoldUnfired":  "Большую форма для листа из глины (необожжённая)",
-    "ItemName_RepairableWindows.ClayLargeSheetMold":  "Большая керамическая форма для листа из глины"
+    "RepairableWindows.LargeGlassPane":  "Большая стеклянная панель",
+    "RepairableWindows.ClayLargeSheetMoldUnfired":  "Большую форма для листа из глины (необожжённая)",
+    "RepairableWindows.ClayLargeSheetMold":  "Большая керамическая форма для листа из глины"
 }
