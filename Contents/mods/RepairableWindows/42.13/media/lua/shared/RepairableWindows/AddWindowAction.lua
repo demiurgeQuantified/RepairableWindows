@@ -24,6 +24,7 @@ function AddWindowAction:waitToStart()
 end
 
 
+---@return boolean
 function AddWindowAction:isValid()
     -- ensure the object hasn't been removed and that the window hasn't already been replaced
     -- TODO: check way more stuff here for security
