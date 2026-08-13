@@ -15,6 +15,7 @@ description=Turkish translation by [url=https://steamcommunity.com/profiles/7656
 description=Italian translation by [url=https://steamcommunity.com/id/Art_Tippet]Art Tippet[/url]
 description=Russian translation by [url=https://steamcommunity.com/profiles/76561199070527711]WowUrCutie[/url] and [url=https://steamcommunity.com/profiles/76561198100076306]Niko_216[/url]
 description=Spanish translation by [url=https://steamcommunity.com/id/taylor_mh]Taylor MH[/url]
+description=Ukranian translation by [url=https://steamcommunity.com/id/SilentSalo]SilentSalo[/url]
 description=
 description=[url=https://github.com/demiurgeQuantified/RepairableWindows]View on GitHub[/url]
 tags=Build 41;Build 42;Building;Misc;Multiplayer;Realistic
