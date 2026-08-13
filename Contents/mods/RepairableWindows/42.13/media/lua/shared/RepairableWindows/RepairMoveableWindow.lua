@@ -38,8 +38,9 @@ Events.OnLoadedTileDefinitions.Add(populateWindowSprites)
 
 function RepairMoveableWindow:complete()
     local inventory = self.character:getInventory()
-    local materials = inventory:getSomeType("Base.GlassPanel", 4)
-    if materials:size() < 4 then
+    -- this should use 4 small panes for most kinds of windows, but it didn't fit every kind and obtaining them is annoying
+    local materials = inventory:getSomeType("RepairableWindows.LargeGlassPane", 1)
+    if materials:size() < 1 then
         print(
             string.format(
                 "[RepairableWindows] WEIRD: player '%s' completed moveable repair without the necessary materials",
@@ -77,7 +78,7 @@ function RepairMoveableWindow:isValid()
         return false
     end
 
-    if inventory:getCountType("Base.GlassPanel") < 4 then
+    if inventory:getCountType("RepairableWindows.LargeGlassPane") < 1 then
         return false
     end
 
@@ -98,6 +99,12 @@ end
 
 function RepairMoveableWindow:new(character, item)
     local o = ISBaseTimedAction.new(self, character) ---@as RepairWindowInHands
+
+    o.stopOnAim = true
+    o.stopOnWalk = true
+    o.stopOnRun = true
+
+    -- TODO: vary needed items based on sprite, some need large glass pane, some need 4 small panes
 
     o.maxTime = o:getDuration()
 
