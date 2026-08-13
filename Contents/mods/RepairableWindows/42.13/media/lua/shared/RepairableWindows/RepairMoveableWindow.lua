@@ -94,7 +94,7 @@ function RepairMoveableWindow:getDuration()
 end
 
 function RepairMoveableWindow:start()
-    self:forceCancel()
+    self:setActionAnim(CharacterActionAnims.Craft)
 end
 
 function RepairMoveableWindow:new(character, item)
