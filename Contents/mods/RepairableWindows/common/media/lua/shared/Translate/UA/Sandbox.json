@@ -1,0 +1,8 @@
+{
+    "Sandbox_RepairableWindows": "Відремонтувати вікно",
+    "Sandbox_RepairableWindows_BreakChance": "Формула можливості розбити вікно",
+    "Sandbox_RepairableWindows_BreakChance_tooltip": "Задає формулу, яка призначена для визначення шансу розбити вікно під час спроби демонтажу. Встановлення вікна ніколи не розбиває його. <LINE> Vanilla імітує значення, що використовуються ванільними рухомими вікнами – на рівні 2 шанс розбити вікно становить 45%, на рівні 10 – 5%. <LINE> Generous ще більше знижує шанс розбити вікно – на рівні 2 шанс розбити вікно становить 45%, на рівні 7 – 0%.",
+    "Sandbox_RepairableWindows_BreakChance_option1": "Vanilla",
+    "Sandbox_RepairableWindows_BreakChance_option2": "Generous",
+    "Sandbox_RepairableWindows_BreakChance_option3": "Вікно ніколи не зламається"
+}
