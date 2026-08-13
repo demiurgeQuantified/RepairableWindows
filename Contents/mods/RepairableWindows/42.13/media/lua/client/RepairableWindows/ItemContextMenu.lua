@@ -36,14 +36,23 @@ local function addMoveableWindowRepairOption(playerIndex, context, items)
         return
     end
 
-    -- TODO: don't allow if not enough materials, show tooltip why
+    local player = getSpecificPlayer(playerIndex)
     
-    context:addOption(
+    local option = context:addOption(
         getText("ContextMenu_Repair"),
-        getSpecificPlayer(playerIndex),
+        player,
         queueRepair,
         primaryItem
     )
+
+
+    if player:getInventory():getCountType("RepairableWindows.LargeGlassPane") < 1 then
+        option.notAvailable = true
+        local tooltip = ISWorldObjectContextMenu.addToolTip()
+        --tooltip.texture = getItem("RepairableWindows.LargeGlassPane"):getNormalTexture()
+        tooltip.name = getText("Tooltip_NeedWrench", getItemDisplayName("RepairableWindows.LargeGlassPane"))
+        option.toolTip = tooltip
+    end
 end
 
 Events.OnFillInventoryObjectContextMenu.Add(addMoveableWindowRepairOption)
